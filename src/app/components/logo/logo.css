@@ -1,0 +1,27 @@
+.containerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+
+.font-bar-code {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 2.5em;
+    margin-left: 8px;
+}
+
+@media (max-width: 1024px) {
+    .containerLogo {
+        flex-direction: column;
+    }
+
+    .font-bar-code {
+        font-family: 'Libre Barcode 39 Text', cursive;
+        font-size: 1.2em;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+}
