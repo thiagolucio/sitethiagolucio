@@ -1,0 +1,11 @@
+.containerLinkedinWidget {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center!important;
+}
+
+.profile-badge, .profile-badge__content {
+    margin-left: 0;
+    text-align: center!important;
+}

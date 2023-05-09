@@ -15,7 +15,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          async
+          defer
+          type="text/javascript"
+        ></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
