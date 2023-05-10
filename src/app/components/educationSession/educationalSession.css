@@ -1,0 +1,16 @@
+.container-educational {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 100%;
+    height: auto;
+   
+}
+.textEducational {
+    color: #333333;
+    .p {
+        font-size: 16px;
+    }
+}
