@@ -5,11 +5,14 @@ import Social from "./components/social/social";
 import LinkedinWidget from "./components/linkedinWidget/linkedinWidget";
 import Avatar from "./components/avatar/avatar";
 import ButtonsDownload from "./components/button/buttonsDownload";
-import EducationSession from "./components/educationSession/educationSession";
+import ExperienceSession from "./components/experienceSession/experienceSession";
+// import EducationSession from "./components/educationSession/educationSession";
+
+import './page.module.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className="container-full">
       <div className={styles.header}>
         <Social />
       </div>
@@ -24,7 +27,7 @@ export default function Home() {
             <ButtonsDownload />
           </div>
           <div className="row">
-            <EducationSession />
+            <ExperienceSession />
           </div>
         </main>
       </div>

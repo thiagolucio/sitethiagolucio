@@ -7,12 +7,12 @@ function EducationSession() {
             id: 1,
             title: "SysMap Outsource",
             src: "/logo_sysmap.svg",
-            description: "Este é o texto referente a descrição de minhas funções na empresa",
+            description: "Working as a Co-Participating Partner inside the company's clients teams and projects as a Front-end UI Developer. \n Acting mainly in the creation of Design Systems for Mobile Applications using frameworks and tools for the Front-end ecosystem.",
         },
         {
             id: 2,
-            title: "SysMap",
-            src: "/logo_sysmap.svg",
+            title: "Atos",
+            src: "/logoAtos.jpeg",
             description: "Este é o texto referente a descrição de minhas funções na empresa",
         },
         {
