@@ -6,7 +6,7 @@ import LinkedinWidget from "./components/linkedinWidget/linkedinWidget";
 import Avatar from "./components/avatar/avatar";
 import ButtonsDownload from "./components/button/buttonsDownload";
 import ExperienceSession from "./components/experienceSession/experienceSession";
-// import EducationSession from "./components/educationSession/educationSession";
+import EducationSession from "./components/educationSession/educationSession";
 
 import './page.module.css';
 
@@ -28,6 +28,9 @@ export default function Home() {
           </div>
           <div className="row">
             <ExperienceSession />
+          </div>      
+          <div className="row">
+            <EducationSession />
           </div>
         </main>
       </div>

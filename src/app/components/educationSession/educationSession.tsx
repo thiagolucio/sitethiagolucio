@@ -5,37 +5,40 @@ function EducationSession() {
     const items = [
         {
             id: 1,
-            title: "SysMap Outsource",
-            src: "/logo_sysmap.svg",
-            description: "Working as a Co-Participating Partner inside the company's clients teams and projects as a Front-end UI Developer. \n Acting mainly in the creation of Design Systems for Mobile Applications using frameworks and tools for the Front-end ecosystem.",
+            title: "University of Vale do Itajaí - UNIVALI.",
+            src: "/univali-logo.jpg",
+            description: "Graduate in Interaction Design - 2016 - 2018.",
         },
         {
             id: 2,
-            title: "Atos",
-            src: "/logoAtos.jpeg",
-            description: "Este é o texto referente a descrição de minhas funções na empresa",
+            title: "University of Southern Santa Catarina - UNISUL.",
+            src: "/unisul-logo.jpeg",
+            description: "Bachelor of Web Development - 2009 - 2013.",
         },
         {
             id: 3,
-            title: "SysMap",
-            src: "/logo_sysmap.svg",
-            description: "Este é o texto referente a descrição de minhas funções na empresa",
+            title: "Estácio de Sá University - UNESA.",
+            src: "/unesa-logo.jpg",
+            description: "Bachelor of Systems Analysis - 1998 - 2002.",
         },
     ]
   return (
-    <div className="education-session">
-      <h2>Educational</h2>
+ <div className="educacional-session">
+      <h2>Educacional</h2>
       {items.map((item) => (
-        <div className="container-educational" key={item.id}>
-          <div>
-            <Image src={item.src} alt={item.title} width="128" height="80" />
+        <div className="container-educacional" key={item.id}>
+          <div className="image-educacional">
+            <Image src={item.src} alt={item.title} width="100" height="60" />
           </div>
-          <div className="textEducational">
+          <div className="text-educacional">
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>
         </div>
       ))}
+      <a className="btn-linkedin" href="https://www.linkedin.com/in/thiago-lucio-bittencourt-b0452825" target="_blank">
+         <Image src="/link-icon.svg" alt="Linkedin" width="16" height="16" /> See more on Linkedin...
+      </a>
     </div>
   );
 }

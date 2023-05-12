@@ -36,6 +36,9 @@ function ExperienceSession() {
           </div>
         </div>
       ))}
+      <a className="btn-linkedin" href="https://www.linkedin.com/in/thiago-lucio-bittencourt-b0452825" target="_blank">
+         <Image src="/link-icon.svg" alt="Linkedin" width="16" height="16" /> See more on Linkedin...
+      </a>
     </div>
   );
 }

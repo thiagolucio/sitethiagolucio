@@ -33,3 +33,20 @@
         font-size: 16px;
     }
 }
+
+.btn-linkedin {
+    width: 100%;
+    border-radius: 14px;
+    margin: 30px 16px;
+    font-weight: 700;
+    color:#0a66c2;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn-linkedin img {
+    filter: invert(21%) sepia(97%) saturate(2062%) hue-rotate(198deg) brightness(100%) contrast(92%);
+    margin-right: 6px;
+
+}
